@@ -216,10 +216,13 @@ table {
 	font-weight: 700;
 	font-size: 20px;
 }
+
 .main_sm_div_v{
+	display: flex;
 	height: 900px;
 	background: gray;
 	padding-top: 200px;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
@@ -231,9 +234,9 @@ table {
 	text-align: center;
     padding: 15px 10px;
 }
-.vihod{
 
-}
+
 .image_v{
 	height: 450px;
+	
 }
