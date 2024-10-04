@@ -147,6 +147,20 @@ table {
 	text-align: center;
 }
 
+.all {
+	background: gray;
+	padding-top: 100px;
+
+}
+
+.main_sm_div {
+	background: #263238;
+	margin-left: 400px;
+	margin-right: 400px;
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
 
 .maintext {
 	font-weight: 700;
@@ -188,20 +202,6 @@ table {
 	color: white;
 }
 
-.main_sm_div {
-	background: #263238;
-	margin-left: 400px;
-	margin-right: 400px;
-	display: flex;
-	flex-direction: column;
-	color: white;
-}
-
-.all {
-	background: gray;
-	padding-top: 100px;
-
-}
 
 .reklama {
 	height: 200px;
@@ -240,3 +240,26 @@ table {
 	height: 450px;
 	
 }
+
+@media (min-width: 300px) and (max-width: 500px) {
+
+.nazvanie {
+	font-size: 30px;
+	text-align: center;
+}
+
+
+.main_sm_div {
+	background: #263238;
+	margin: 0;
+	color: white;
+	float: left;
+}
+
+.image {
+	width: 200px;
+	height: 150px;
+}
+
+}
+
