@@ -216,3 +216,24 @@ table {
 	font-weight: 700;
 	font-size: 20px;
 }
+.main_sm_div_v{
+	height: 900px;
+	background: gray;
+	padding-top: 200px;
+	justify-content: center;
+	align-items: center;
+}
+.vibor_1{
+	text-align: center;
+    padding: 15px 10px;
+}
+.vibor_2{
+	text-align: center;
+    padding: 15px 10px;
+}
+.vihod{
+
+}
+.image_v{
+	height: 450px;
+}
